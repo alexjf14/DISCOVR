@@ -37,6 +37,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', end
     vertical-align: bottom;
 }
 
+.ContenedorMenu ul li #PictureUser{
+	width: 25px;
+	height: 25px;
+}
+
+.ContenedorMenu ul li #PictureUser img{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
 .FloatRightMenu{
 	float: right;
 	margin-right: 30px;
