@@ -1,0 +1,29 @@
+.ContainerTileSites{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.TileSite1, .TileSite2, .TileSite3, .TileSite4, .TileSite5, .TileSite6{
+	width: 25%;
+	float: left;
+	height: 180px;
+	background-color: orange;
+	margin-left: 2.5%;
+	margin-bottom: 30px;
+}
+
+.TileSite2{
+	width: 40%;
+}
+
+.TileSite4{
+	width: 30%;
+}
+
+.TileSite5{
+	width: 40%;
+}
+
+.TileSite6{
+	width: 20%;
+}
