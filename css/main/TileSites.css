@@ -27,3 +27,13 @@
 .TileSite6{
 	width: 20%;
 }
+
+.TileSitesContenido{
+	width: 100%;
+	height: 155px;
+}
+
+.SpanTitle{
+	float: right;
+	margin-right: 12px;
+}
