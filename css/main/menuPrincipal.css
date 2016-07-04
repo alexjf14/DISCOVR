@@ -3,7 +3,7 @@
 	z-index: 1;
 }
 .ContenedorMenu{
-	z-index: 100;
+	z-index: 50002;
 	top: 0;
 	position: fixed;
 	width: 100%;
@@ -60,3 +60,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', end
 	margin-top: 8px;
 	margin-right: 12px;
 }
+
+

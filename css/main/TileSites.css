@@ -1,27 +1,30 @@
 .ContainerTileSites{
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .TileSite1, .TileSite2, .TileSite3, .TileSite4, .TileSite5, .TileSite6{
-	width: 25%;
+	width: 23.8%;
 	float: left;
 	height: 180px;
-	background-color: orange;
-	margin-left: 2.5%;
-	margin-bottom: 30px;
+
+	color: #fff;
+	margin-left: 0.8%;
+	margin-bottom: 10px;
+
+
 }
 
 .TileSite2{
-	width: 40%;
+	width: 49.3%;
 }
 
 .TileSite4{
-	width: 30%;
+	width: 32%;
 }
 
 .TileSite5{
-	width: 40%;
+	width: 45%;
 }
 
 .TileSite6{
@@ -30,10 +33,58 @@
 
 .TileSitesContenido{
 	width: 100%;
-	height: 155px;
+	height: 180px;
 }
 
 .SpanTitle{
 	float: right;
 	margin-right: 12px;
+	position: relative;
+	margin-top: -44px;
+
+}
+
+.MiniTilesSite{
+	width: 49.35%;
+	float: left;
+	background-color: orange;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 88px;
+}
+
+.MiniTilesSite:nth-last-child(1){
+	margin-left: 1%;
+	margin-top:1%;
+}
+
+.MiniTilesSite:nth-last-child(2){
+
+	margin-top:1%;
+}
+
+.MiniTilesSite:nth-last-child(3){
+	margin-left: 1%;
+}
+
+.TileSitesContenidoMini{
+	height: 88px;
+}
+
+.SpanTitleMini{
+	float: right;
+	margin-right: 12px;
+	position: relative;
+	margin-top: -28px;
+	
+}
+
+.NotificacionTileSite{
+	position: relative;
+	margin-top: -180px;
+	float: right;
+	background-color: #ef5350;
+	width: 40px;
+	padding: 2px;
+	text-align: center;
 }

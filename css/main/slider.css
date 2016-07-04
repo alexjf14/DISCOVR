@@ -6,6 +6,7 @@ html, body {
 
   box-sizing: border-box ;
   font-family: Segoe UI;
+
 }
 
 
@@ -70,7 +71,7 @@ html, body {
 }
 
 .slide_buttons {
-  width: 51.28%;
+  
   left: 0;
   position: absolute;
   right: 0;
