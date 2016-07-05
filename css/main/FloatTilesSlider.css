@@ -22,8 +22,8 @@
 	display: inline-block;
 	width: 30.5%;
 	margin: 2px;
-	margin-top: 5px;
-	height: 111px;
+	margin-top: 2px;
+	height: 113px;
 	background-color: rgba(51,51,51,0.6);
 	color:#fff;
 	text-align: right;
@@ -66,3 +66,4 @@
 	text-align: center;
 	margin-right: -82px;
 }
+
