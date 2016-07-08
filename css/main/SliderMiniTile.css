@@ -1,0 +1,174 @@
+input[name="slider-select-element"] {
+display: none;
+}
+#slider-arrows {
+margin: -10% auto 0 auto;
+width: 100%;
+height: 50px;
+padding: 0;
+
+}
+
+
+
+.slider-element img {
+	width: 100%;
+	height: 88px;
+    object-fit: cover;
+}
+
+
+#slider-box {
+-moz-animation: autoSlider 15s infinite linear;
+-o-animation: autoSlider 15s infinite linear;
+-webkit-animation: autoSlider 15s infinite linear;
+animation: autoSlider 15s infinite linear;
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+transition: all 0.75s ease;
+height: 100%;
+width: 300%;
+}
+
+#slider-container {
+height: 88px;
+max-height: 800px;
+overflow: hidden;
+text-align: left;
+width: 100%; 
+
+
+
+}
+.element-blue,
+.element-green,
+.element-red {
+	height: 400px;
+	max-height: 400px;
+	width: 100%;
+	text-align: justify;
+	float: left;
+	display: table;
+}
+
+.element-blue h3,
+.element-green h3,
+.element-red h3 {
+	padding-bottom: 8px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.element-blue {
+
+background: rgba(50, 50, 50, 0.7);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-origin: content-box;
+-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+
+}
+.element-green {
+background: rgba(50, 50, 50, 0.7);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-origin: content-box;
+-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+}
+.element-red {
+background: rgba(50, 50, 50, 0.7);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-origin: content-box;
+-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+}
+.slider-element {
+float: left;
+width: 33.333%;
+}
+@-moz-keyframes autoSlider {
+0% {
+margin-left: 0;
+}
+30% {
+margin-left: 0;
+}
+35% {
+margin-left: -100%;
+}
+65% {
+margin-left: -100%;
+}
+70% {
+margin-left: -200%;
+}
+95% {
+margin-left: -200%;
+}
+100% {
+margin-left: 0;
+}
+}
+@-webkit-keyframes autoSlider {
+0% {
+margin-left: 0;
+}
+30% {
+margin-left: 0;
+}
+35% {
+margin-left: -100%;
+}
+65% {
+margin-left: -100%;
+}
+70% {
+margin-left: -200%;
+}
+95% {
+margin-left: -200%;
+}
+100% {
+margin-left: 0;
+}
+}
+@keyframes autoSlider {
+0% {
+margin-left: 0;
+}
+30% {
+margin-left: 0;
+}
+35% {
+margin-left: -100%;
+}
+65% {
+margin-left: -100%;
+}
+70% {
+margin-left: -200%;
+}
+95% {
+margin-left: -200%;
+}
+100% {
+margin-left: 0;
+}
+}
