@@ -418,6 +418,23 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/main/slider.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script >
+  
+  $(document).ready(function(){
+  var altura = $('.ContenedorMenu').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.ContenedorMenu').addClass('menu-fixed');
+    } else {
+      $('.ContenedorMenu').removeClass('menu-fixed');
+    }
+  });
+ 
+});
+
+</script>
 
 </body>
 </html>

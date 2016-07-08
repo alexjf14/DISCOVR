@@ -62,3 +62,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', end
 }
 
 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	z-index: 50002;
+	top: 0;
+	position: fixed;
+	width: 100%;
+
+	color: #000;
+	background: linear-gradient(to bottom, rgba(36,36,36,0.84) 0%, rgba(31,31,31,0.7) 0%, rgba(26,26,26,0.52) 0%, rgba(26,26,26,0) 0%);
+	background-color: #fff;
+}
