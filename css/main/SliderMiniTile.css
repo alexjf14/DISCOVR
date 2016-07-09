@@ -45,8 +45,8 @@ width: 100%;
 .element-blue,
 .element-green,
 .element-red {
-	height: 400px;
-	max-height: 400px;
+	height: 88px;
+	max-height: 88px;
 	width: 100%;
 	text-align: justify;
 	float: left;
@@ -63,42 +63,12 @@ width: 100%;
 }
 
 
-.element-blue {
+.element-blue, .element-green, .element-red {
 
-background: rgba(50, 50, 50, 0.7);
-background-size: cover;
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-origin: content-box;
--webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-			background-size: cover;
-			background-position: center center;
+text-align: center;
 
 }
-.element-green {
-background: rgba(50, 50, 50, 0.7);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-origin: content-box;
--webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-			background-size: cover;
-			background-position: center center;
-}
-.element-red {
-background: rgba(50, 50, 50, 0.7);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-origin: content-box;
--webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-			background-size: cover;
-			background-position: center center;
-}
+ 
 .slider-element {
 float: left;
 width: 33.333%;
