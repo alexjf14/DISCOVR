@@ -17,7 +17,13 @@ padding: 0;
     object-fit: cover;
 }
 
+/* ESTA PROPIEDAD SE APLICA PARA MODIFICAR LOS TAMAÑOS EN LOS TILES FLOTANTES DEL SLIDER */
 
+.ContainerFloatTiles img{
+	height: 116px;
+}
+
+/* --------------------------------------------------------------------------------------- */
 #slider-box {
 -moz-animation: autoSlider 15s infinite linear;
 -o-animation: autoSlider 15s infinite linear;
@@ -39,14 +45,20 @@ overflow: hidden;
 text-align: left;
 width: 100%; 
 
-
-
 }
+
+/* ESTA PROPIEDAD SE APLICA PARA MODIFICAR LOS TAMAÑOS EN LOS TILES FLOTANTES DEL SLIDER */
+
+.ContainerFloatTiles #slider-container{
+	height: 116px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
 .element-blue,
 .element-green,
 .element-red {
-	height: 88px;
-	max-height: 88px;
+	height: 116px;
+	max-height: 116px;
 	width: 100%;
 	text-align: justify;
 	float: left;

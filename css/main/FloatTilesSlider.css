@@ -72,8 +72,9 @@
 }
 
 .LiContainer .material-icons{
-	font-size: 93px;
+	font-size: 73px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 .LiContainer .element-blue
