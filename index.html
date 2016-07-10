@@ -75,6 +75,8 @@
     
     
   </ul>
+
+
 </div>
 
 <!-- FIN DEL MENU-->
@@ -134,12 +136,13 @@
     </li>
 
     <li><div class="LiContainer">
+       <i class="material-icons materialOut">group</i>
  <!-- ---------------------------------------------------------------------------------------------------- x -->
 
             <section>
       
       <div id="page">
-<div id="slider-container" class="slider-containerMod">
+<div id="slider-container" class="slider-containerMod  SliderIn">
 <div id="slider-box">
 <div class="slider-element" id="slider-containerMod">
 <article class="element-red">
@@ -179,12 +182,14 @@
 
 
     <li id="DobleTile"><div class="LiContainer">
-      <!-- ---------------------------------------------------------------------------------------------------- x -->
 
-            <section>
+      <i class="material-icons materialOut">nature_people</i>
+      <!-- ---------------------------------------------------------------------------------------------------- x -->
       
-      <div id="page">
-<div id="slider-container" class="slider-containerMod">
+            <section >
+      
+      <div id="page" >
+<div id="slider-container" class="slider-containerMod SliderIn" >
 <div id="slider-box">
 <div class="slider-element" id="slider-containerMod">
 <article class="element-red">
@@ -523,24 +528,12 @@
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="js/main/slider.js"></script>
-<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-<script >
-  
-  $(document).ready(function(){
-  var altura = $('.ContenedorMenu').offset().top;
-  
-  $(window).on('scroll', function(){
-    if ( $(window).scrollTop() > altura ){
-      $('.ContenedorMenu').addClass('menu-fixed');
-    } else {
-      $('.ContenedorMenu').removeClass('menu-fixed');
-    }
-  });
- 
-});
 
-</script>
+<script src="js/main/slider.js"></script>
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+<script src="js/main/efectosTileIcono.js"></script>
 
 </body>
 </html>
