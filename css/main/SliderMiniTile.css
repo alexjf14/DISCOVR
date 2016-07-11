@@ -25,6 +25,24 @@ padding: 0;
 	height: 116px;
 }
 
+/* ADAPRA EL ALTO DE LOS TILES EN LOS TILES DEL SLIDER */
+
+.ContainerFloatTiles img{
+	height: 116px;
+}
+
+/* ADAPTA EL ALTO DE LA IMAGEN EN LOS TILES DE SITIOS */
+.ContainerTileSites img{
+	height: 180px;
+}
+
+/* ADAPTA EL ALTO DE LA IMAGEN EN LOS MINI TILES */
+
+.MiniTilesSite img{
+	height: 88px;
+}
+
+
 /* --------------------------------------------------------------------------------------- */
 #slider-box {
 -moz-animation: autoSlider 15s infinite linear;
@@ -56,15 +74,17 @@ width: 100%;
 }
 
 /* ------------------------------------------------------------------------------------------ */
+
+
 .element-blue,
 .element-green,
 .element-red {
-	height: 116px;
-	max-height: 116px;
+	height: 180px;
+	max-height: 180px;
 	width: 100%;
 	text-align: justify;
 	float: left;
-	display: table;
+	/* display: table; */
 }
 
 .element-blue h3,

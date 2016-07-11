@@ -1,6 +1,9 @@
 .ContainerTileSites{
 	width: 100%;
 	margin-top: 10px;
+	text-align: center;
+	overflow: hidden;
+
 }
 
 .TileSite1, .TileSite2, .TileSite3, .TileSite4, .TileSite5, .TileSite6{
@@ -11,6 +14,7 @@
 	color: #fff;
 	margin-left: 0.8%;
 	margin-bottom: 10px;
+		background-color: #37474f;
 
 
 }
@@ -21,6 +25,7 @@
 
 .TileSite4{
 	width: 32%;
+	background-color: #fff;
 }
 
 .TileSite5{
@@ -34,7 +39,16 @@
 .TileSitesContenido{
 	width: 100%;
 	height: 180px;
+	overflow: hidden;
 }
+
+/* ESTA PROPIEDAD SE APLICA PARA MODIFICAR LOS TAMAÑOS EN LOS TILES SITES DEL SLIDER */
+
+.TileSitesContenido #slider-container{
+	height: 180px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
 
 .SpanTitle{
 	float: right;
@@ -92,6 +106,7 @@
 	text-align: center;
 }
 
+/* AQUI SE GENERA LA BARRA DIFUMINADA QUE ESTA EN LA PARTE INFERIOR DE LOS TILES */
 .BarraDifuminadaTileSite{
 	position: relative;
 	margin-top: -50px;
@@ -104,3 +119,13 @@
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(0,0,0,0.65) 83%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 85%,rgba(0,0,0,0.65) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
+
+/* AQUI SE ADAPTAN LAS IMAGENES CONTENIDAD EN LOS TILES */
+
+.TileSitesContenido .material-icons{
+	font-size: 73px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 54px;
+}
+
